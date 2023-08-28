@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url(fonts/retro_computer_personal_use.ttf);
+    font-style: normal;
+}
+
+#loadingVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 10;
+}
+
+#screentext {
+    color: chartreuse;
+    font-size: 1rem;
+    margin-left: 150px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: 1;
+    font-family: myFont;
+    white-space: pre-wrap;
+}
+
+.machine {
+    position: absolute;
+    background-color: black(112, 79, 79);
+    height: 800px;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 25%;
+    border: 1px solid chartreuse;
+}
+
+.machine .screen {
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    background-color: black;
+    left: 13%;
+    top: 8%;
+    border: 5px solid rgb(71, 70, 80);
+}
+
+.machine .button1 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 45%;
+    margin-left: 25%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button1:hover {
+    background-color: darkred;
+}
+
+.machine .button2 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 45%;
+    margin-left: 45%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button2:hover {
+    background-color: darkred;
+}
+
+.machine .button3 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 45%;
+    margin-left: 65%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button3:hover {
+    background-color: darkred;
+}
+
+.machine .button4 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 56%;
+    margin-left: 25%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button4:hover {
+    background-color: darkred;
+}
+
+.machine .button5 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 56%;
+    margin-left: 45%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button5:hover {
+    background-color: darkred;
+}
+
+.machine .button6 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 56%;
+    margin-left: 65%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button6:hover {
+    background-color: darkred;
+}
+
+.machine .button7 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 66%;
+    margin-left: 25%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button7:hover {
+    background-color: darkred;
+}
+
+.machine .button8 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 66%;
+    margin-left: 45%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button8:hover {
+    background-color: darkred;
+}
+
+.machine .button9 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 66%;
+    margin-left: 65%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button9:hover {
+    background-color: darkred;
+}
+
+.machine .button0 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin-top: 76%;
+    margin-left: 45%;
+    border-radius: 5px;
+    color: chartreuse;
+    text-align: center;
+    line-height: 75px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    font-family: myFont;
+    border: 1px solid chartreuse;
+}
+
+.machine .button0:hover {
+    background-color: darkred;
+}
+
+@media screen and (min-width: 450px) {
+    .machine {
+        width: 50%;
+        left: auto;
+        top: auto;
+    }
+
+}
